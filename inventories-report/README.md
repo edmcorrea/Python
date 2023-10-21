@@ -65,7 +65,7 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 ## Instalação
  ### Para rodar o projeto localmente:
 
-  -Clone o repositório:
+  Clone o repositório:
 
     ```bash
       git clone git@github.com:edmcorrea/python.git
@@ -76,6 +76,7 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
     ```bash
       cd python
     ```
+
     ```bash
       cd inventories-report
     ```
