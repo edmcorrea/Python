@@ -88,9 +88,10 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 ## Como usar
 
   ### O programa deverá ser executável via linha de comando.
-  <br>
+  
       <details>
-        <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary><br />
+        <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary>
+        
         <details>
           <summary><strong>Exemplo de entrada em CSV</strong></summary><br />
           ```CSV
@@ -135,8 +136,8 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
           </dataset>
           ```
         </details>
+
       </details>
-  <br>
 
 
   1. Instale o código como um pacote pip (é necessário para que o ambiente funcione):
