@@ -67,7 +67,7 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 
   Clone o repositório:
 
-    ```git clone git@github.com:edmcorrea/python.git```
+    git clone git@github.com:edmcorrea/python.git
 
   -No terminal, entre na pasta do repositório que você acabou de clonar e entre no repositório em questão:
 
