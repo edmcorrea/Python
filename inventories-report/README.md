@@ -89,6 +89,8 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 
   ### O programa deverá ser executável via linha de comando.
 
+  <br>
+
   <details>
     <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary>
     
@@ -163,3 +165,11 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
       ```bash
         python3 -m inventory_report.main argumento1 argumento2
       ```
+
+
+<br>
+    
+## Documentação externa
+
+- Python: `https://docs.python.org/3/`
+- xmltodict: `https://www.askpython.com/python-modules/xmltodict-module`
