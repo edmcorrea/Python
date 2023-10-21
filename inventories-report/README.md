@@ -2,16 +2,6 @@
 
   Neste projeto implementou-se algumas funções que de leitura e escrita de arquivos `JSON`, `XML` e `CSV` utilizando a Programação Orientada a Objetos em Python.
 
-  Esses dados de estoque poderão ser obtidos de diversas fontes:
-
-  - Através da importação de um arquivo `CSV`;
-
-  - Através da importação de um arquivo `JSON`;
-
-  - Através da importação de um arquivo `XML`.
-
-  Além disso, o relatório final possuirá duas versões: **simples** e **completa**.
-
 <br>
 
 ## Tecnologias usadas
@@ -68,18 +58,21 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
   </details>
   
 </details>
+<br>
+<br>
 
 
 ## Instalação
  ### Para rodar o projeto localmente:
 
-  1. Clone o repositório:
+  -Clone o repositório:
 
     ```bash
       git clone git@github.com:edmcorrea/python.git
     ```
 
-  2. No terminal, entre na pasta do repositório que você acabou de clonar e entre no repositório em questão:
+  -No terminal, entre na pasta do repositório que você acabou de clonar e entre no repositório em questão:
+
     ```bash
       cd python
     ```
@@ -87,17 +80,20 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
       cd inventories-report
     ```
 
-  3. Crie o ambiente virtual para o projeto
+  -Crie o ambiente virtual para o projeto
+
     ```bash
       python3 -m venv .venv && source .venv/bin/activate
     ```
 
-  4. Instale as dependências
+  -Instale as dependências
+
     ```bash
       python3 -m pip install -r dev-requirements.txt
     ```
 
-  5. Para finalizar o ambiente virtual do projeto
+  - Para finalizar o ambiente virtual do projeto
+
     ```bash
       deactivate
     ```
