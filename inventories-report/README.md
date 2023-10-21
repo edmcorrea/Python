@@ -88,23 +88,7 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 ## Como usar
 
   ### O programa deverá ser executável via linha de comando.
-
-
-  1. Instale o código como um pacote pip (é necessário para que o ambiente funcione):
-
-        pip install .
-
-  2. Execute o comando `inventory_report`:
-
-      ```bash
-        inventory_report `argumento1` `argumento2`
-      ```
-
-      OBS.:
-        - **argumento1** deve receber o caminho de um arquivo a ser importado. O arquivo pode ser um `csv`, `json` ou `xml`.
-
-        - **argumento2** pode receber duas strings: `simples` ou `completo`, cada uma gerando o respectivo relatório.
-
+  <br>
       <details>
         <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary><br />
         <details>
@@ -152,8 +136,28 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
           ```
         </details>
       </details>
+  <br>
+
+
+  1. Instale o código como um pacote pip (é necessário para que o ambiente funcione):
+
+      ```bash
+        pip install .
+      ```
+
+  2. Execute o comando `inventory_report`:
+
+      ```bash
+        inventory_report `argumento1` `argumento2`
+      ```
+
+      OBS.:
+        - **argumento1** deve receber o caminho de um arquivo a ser importado. O arquivo pode ser um `csv`, `json` ou `xml`.
+
+        - **argumento2** pode receber duas strings: `simples` ou `completo`, cada uma gerando o respectivo relatório.
 
   3. Outra opção para invocar o comando:
      
+      ```bash
         python3 -m inventory_report.main argumento1 argumento2
-     
+      ```
