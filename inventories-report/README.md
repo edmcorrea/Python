@@ -88,57 +88,58 @@ Durante o processo de criação do projeto, alguns pontos foram levados em consi
 ## Como usar
 
   ### O programa deverá ser executável via linha de comando.
-  
-      <details>
-        <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary>
-        
-        <details>
-          <summary><strong>Exemplo de entrada em CSV</strong></summary><br />
-          ```CSV
-            id,nome_do_produto,nome_da_empresa,data_de_fabricacao,data_de_validade,numero_de_serie,instrucoes_de_armazenamento
-            1,cadeira,Target Corporation,2021-02-18,2025-09-17,CR25,empilhadas
-            2,mesa,"Galena Madeira, Inc.",2022-12-06,2026-12-25,FR29,desmontadas
-            3,abajur,Keen Iluminação,2019-12-22,2025-11-07,CZ09,em caixas
-          ```
-        </details>
 
-        <details>
-          <summary><strong>Exemplo de entrada em JSON</strong></summary><br />
-          ```json
-          [
-            {
-              "id":1,
-              "nome_do_produto":"Borracha",
-              "nome_da_empresa":"Papelaria Solar",
-              "data_de_fabricacao":"2021-07-04",
-              "data_de_validade":"2029-02-09",
-              "numero_de_serie":"FR48",
-              "instrucoes_de_armazenamento":"Ao abrigo de luz solar"
-            }
-          ]
-          ```
-        </details>
+  <details>
+    <summary><strong>Sobre os arquivos com os dados de entrada</strong></summary>
+    
+  <details>
+    <summary><strong>Exemplo de entrada em CSV</strong></summary><br />
+    ```CSV
+      id,nome_do_produto,nome_da_empresa,data_de_fabricacao,data_de_validade,numero_de_serie,instrucoes_de_armazenamento
+      1,cadeira,Target Corporation,2021-02-18,2025-09-17,CR25,empilhadas
+      2,mesa,"Galena Madeira, Inc.",2022-12-06,2026-12-25,FR29,desmontadas
+      3,abajur,Keen Iluminação,2019-12-22,2025-11-07,CZ09,em caixas
+    ```
+  </details>
 
-        <details>
-          <summary><strong>Exemplo de entrada em XML</strong></summary><br />
-          ```xml
-          <?xml version='1.0' encoding='UTF-8'?>
-          <dataset>
-            <record>
-              <id>1</id>
-              <nome_do_produto>Microfone</nome_do_produto>
-              <nome_da_empresa>Tecno Uau LTDA</nome_da_empresa>
-              <data_de_fabricacao>2021-10-27</data_de_fabricacao>
-              <data_de_validade>2032-08-31</data_de_validade>
-              <numero_de_serie>MT08</numero_de_serie>
-              <instrucoes_de_armazenamento>Longe de fonte de calor</instrucoes_de_armazenamento>
-            </record>
-          </dataset>
-          ```
-        </details>
+  <details>
+    <summary><strong>Exemplo de entrada em JSON</strong></summary><br />
+    ```json
+    [
+      {
+        "id":1,
+        "nome_do_produto":"Borracha",
+        "nome_da_empresa":"Papelaria Solar",
+        "data_de_fabricacao":"2021-07-04",
+        "data_de_validade":"2029-02-09",
+        "numero_de_serie":"FR48",
+        "instrucoes_de_armazenamento":"Ao abrigo de luz solar"
+      }
+    ]
+    ```
+  </details>
 
-      </details>
+  <details>
+    <summary><strong>Exemplo de entrada em XML</strong></summary><br />
+    ```xml
+    <?xml version='1.0' encoding='UTF-8'?>
+    <dataset>
+      <record>
+        <id>1</id>
+        <nome_do_produto>Microfone</nome_do_produto>
+        <nome_da_empresa>Tecno Uau LTDA</nome_da_empresa>
+        <data_de_fabricacao>2021-10-27</data_de_fabricacao>
+        <data_de_validade>2032-08-31</data_de_validade>
+        <numero_de_serie>MT08</numero_de_serie>
+        <instrucoes_de_armazenamento>Longe de fonte de calor</instrucoes_de_armazenamento>
+      </record>
+    </dataset>
+    ```
+  </details>
 
+  </details>
+
+<br>
 
   1. Instale o código como um pacote pip (é necessário para que o ambiente funcione):
 
