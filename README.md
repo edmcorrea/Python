@@ -1,9 +1,7 @@
 # Python
 ---
 
-Nesse repositório estão armazenados todos os projetos desenvolvidos em Python.
-
-<br>
+Nesse repositório estão armazenados alguns projetos desenvolvidos em Python.
 
 ## Inventories Report
 ---
