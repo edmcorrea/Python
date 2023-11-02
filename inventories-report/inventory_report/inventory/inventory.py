@@ -47,4 +47,5 @@ class Inventory:
         if type == "completo":
             return CompleteReport.generate(data)
         elif type == "simples":
+            print(data)
             return SimpleReport.generate(data)

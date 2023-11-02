@@ -1,6 +1,6 @@
 # Inventory Report
 
-  Neste projeto implementou-se algumas funções que de leitura e escrita de arquivos `JSON`, `XML` e `CSV` utilizando a Programação Orientada a Objetos em Python.
+  Neste projeto implementou-se algumas funções de leitura e escrita de arquivos `JSON`, `XML` e `CSV` utilizando a Programação Orientada a Objetos em Python.
 
 <br>
 
@@ -15,12 +15,12 @@
 ## Características Gerais
 ---
 
--`Gerador de Relatórios`: recebe como entrada arquivos com dados de um estoque e tem como saída um relatório acerca destes dados.
+- `Gerador de Relatórios`: recebe como entrada arquivos com dados de um estoque e tem como saída um relatório acerca destes dados.
 
--`Importação de arquivos variados`: Dados podem ser obtidos de diversas fontes. (**CSV, JSON, XML**).
+- `Importação de arquivos variados`: Dados podem ser obtidos de diversas fontes. (**CSV, JSON, XML**).
 
 
--`Relatório final em versões variadas`: O relatório final possui duas versões: **simples** e **completa**, a critério do usuário.
+- `Relatório final em versões variadas`: O relatório final possui duas versões: **simples** e **completa**, a critério do usuário.
 
 <br>
 

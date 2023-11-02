@@ -11,6 +11,7 @@ class InventoryRefactor(Iterable):
 
     def import_data(self, path_to_file: str, report_type: str) -> str:
         data = self.importer.import_data(path_to_file)
+        print('data', data)
         self.data += data
 
         if report_type == 'simples':
