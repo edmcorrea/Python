@@ -14,6 +14,7 @@ class MenuData:
             rows = csv.DictReader(file)
             for row in rows:
                 row_dish = row["dish"]
+                
                 dish = dishes.get(row_dish)
                 if dish is None:
                     dish = Dish(row_dish, float(row["price"]))

@@ -3,7 +3,9 @@
 
 Nesse repositório estão armazenados alguns projetos desenvolvidos em Python.
 
-## Inventories Report
+<br>
+
+## Inventory Report
 ---
 
 Projeto que implementou-se algumas funções de leitura e escrita de arquivos JSON, XML e CSV utilizando a Programação Orientada a Objetos em Python.
